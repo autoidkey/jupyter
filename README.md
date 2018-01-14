@@ -1,17 +1,17 @@
 practice jupyter
 
-#create environment
+# create environment
 $ conda create (env_name)
 
-#activate confirmation
+# activate confirmation
 $ conda env list
 
-#activate virtual environment
+# activate virtual environment
 $ source activate (env_name)
 ex) $ source activate jupyter-env
 
 # stop virtual environment
 $ source deactivate (env_name)
 
-#activate jupyter
+# activate jupyter
 $ jupyter notebook
