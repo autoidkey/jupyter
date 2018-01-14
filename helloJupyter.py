@@ -1,9 +1,9 @@
 
 # coding: utf-8
 
-# In[14]:
+# In[15]:
 
-import subprocess
+import subprocess #convert .py file
 subprocess.run(['jupyter', 'nbconvert', '--to', 'python', 'helloJupyter.ipynb'])
 
 
@@ -22,8 +22,23 @@ hello(your_name)
 hello("note")
 
 
-# your_name? #decstring  shift+tab is ok, too.
+# # your_name? #decstring  shift+tab is ok, too.
 
-# !ls #unix command
+# # !ls #unix command
 
-# %pwd # provided by ipython kernel
+# # %pwd # provided by ipython kernel
+
+# In[1]:
+
+a = 100 * 5.0
+
+
+# In[2]:
+
+print(a)
+
+
+# In[ ]:
+
+
+
